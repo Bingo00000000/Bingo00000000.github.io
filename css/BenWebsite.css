@@ -1,0 +1,145 @@
+body {
+	color: #ffffff;
+	background: linear-gradient(-45deg,#0BEDF1,#47BAE9,#0B9CF1,#02379F,#0EC0C0,#0E37C0,#0B67F1,#0B35F1,#0B19F1);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}}
+
+.Welcome{
+	font-size: 20px;
+	font-weight: bold;
+  position: fixed;
+  text-align: center;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.color-white{
+	color: white;
+}
+.color-black-bold{
+	color: black;
+	font-weight: bold;
+}
+.shape-outer {
+    display: flex;
+    flex-shrink: 0;
+    height: calc(160px + 4vw);
+    width: calc(160px + 4vw);
+    background-image: linear-gradient(to bottom right,#02379F ,#02379F, #562b7c, #2b86c5);
+}
+
+.shape-inner {	
+    height: calc(140px + 4vw);
+    width: calc(140px + 4vw);
+    background: url(../picture_Ben/IMG_0433.JPG)no-repeat left;
+    background-size: cover;
+    margin: auto;
+}
+
+.bevel {
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    		clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.title{
+float:left;
+  align-items: left;
+  
+}
+.title_text
+{
+	padding-left: 250px;
+  
+}
+.backgroundBlack
+{ 
+	background: black;
+	padding: 20px;
+	margin: 20 px;
+}
+.backgroundWhite
+{ 
+	background: #D8DADA;
+	margin-left:20px;
+	margin-right:20px;
+	padding:20px;
+		
+}
+.floatRight
+{
+	float: right;
+}
+.floatCenter
+{
+	float: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.textCenter
+{
+	text-align: center;
+}
+.textRight
+{
+	text-align: right;
+}
+.bigButton
+{
+	width:50;
+	height:50;
+}
+.smallButton
+{
+	width:25;
+	height:25;
+}
+.info
+{
+	margin:20px;
+}
+
+#instafeed-container * {
+  width:200;
+  height:200;
+}
