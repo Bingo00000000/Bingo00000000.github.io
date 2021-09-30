@@ -114,6 +114,11 @@ float:left;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 75%;
+}
+.right {
+  display: block;
+  margin-left: auto;
   width: 50%;
 }
 .textCenter
@@ -126,8 +131,8 @@ float:left;
 }
 .bigButton
 {
-	width:50;
-	height:50;
+	width:75;
+	height:75;
 }
 .smallButton
 {
@@ -139,7 +144,4 @@ float:left;
 	margin:20px;
 }
 
-#instafeed-container * {
-  width:200;
-  height:200;
-}
+
